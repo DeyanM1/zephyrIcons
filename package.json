@@ -2,13 +2,17 @@
   "name": "zephyricons",
   "displayName": "zephyrIcons",
   "description": "Add raw file icons for Zephyr",
-  "version": "0.0.1",
+  "version": "1.0.0",
+  "icon": "icons/zph.png",
+  "author": {"name": "DeyanM1"},
+  "publisher": "DeyanM1",
   "engines": {
     "vscode": "^1.106.1"
   },
   "categories": [
     "Programming Languages"
   ],
+  "repository": {},
   "contributes": {
     "languages": [{
       "id": "zph",
