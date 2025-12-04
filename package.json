@@ -1,0 +1,25 @@
+{
+  "name": "zephyricons",
+  "displayName": "zephyrIcons",
+  "description": "Add raw file icons for Zephyr",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.106.1"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "zph",
+      "aliases": ["zephyr", "zph"],
+      "extensions": [".zph"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "zph",
+      "scopeName": "source.zephyr",
+      "path": "./syntaxes/zph.tmLanguage.json"
+    }]
+  }
+}
